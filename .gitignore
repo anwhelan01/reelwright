@@ -12,7 +12,7 @@ screenshots/
 .DS_Store
 .node_modules.lock
 .grok/
-AGENTS.md
+# AGENTS.md is the Hermes project harness — do commit it
 AGENTS.project.md
 public/__grok/
 
