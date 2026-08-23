@@ -15,3 +15,7 @@ screenshots/
 AGENTS.md
 AGENTS.project.md
 public/__grok/
+
+# Hermes personal overrides
+AGENTS.override.md
+.hermes/*.local.yaml

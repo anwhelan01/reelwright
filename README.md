@@ -1,5 +1,21 @@
 # Reelwright
 
+<div align="center">
+
+<p align="center">
+  <img src="public/og.jpg" alt="Reelwright" width="100%" />
+</p>
+
+<p>
+  <a href="https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode"><img src="https://img.shields.io/badge/Hermes-Bot_Mode-6d28d9?style=for-the-badge&labelColor=0a0a0a" alt="Hermes Bot Mode" /></a>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&labelColor=0a0a0a&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/license-MIT-fbbf24?style=for-the-badge&labelColor=0a0a0a" alt="MIT" />
+  <img src="https://img.shields.io/badge/public-111111?style=for-the-badge&labelColor=0a0a0a" alt="public" />
+</p>
+
+</div>
+
+
 **From a line to a short.**
 
 Reelwright is a browser studio that turns a topic into a finished vertical video: a scene-bound script, a matching still for every spoken beat, timed voice, karaoke captions, a music bed, and a downloadable file for TikTok, Reels, or Shorts.
@@ -124,3 +140,29 @@ Inspired by [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrin
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+---
+
+## Hermes Bot Mode
+
+This desk is a named [Hermes](https://hermes-agent.nousresearch.com/) Bot — own model slot, memory, skills, routines, and `@mentions`.
+
+```bash
+# once
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+
+# this repo
+./scripts/install-hermes-bot.sh
+hermes -p reelwright chat
+```
+
+In Hermes Desktop the Bot lands under **Bots**. Type `@reelwright` from any chat; group it with the rest of the k3ss roster (`studio`).
+
+| File | Role |
+| --- | --- |
+| [`AGENTS.md`](AGENTS.md) | Project harness Hermes loads at session start |
+| [`.hermes/SOUL.md`](.hermes/SOUL.md) | Bot personality |
+| [`.hermes/bot.yaml`](.hermes/bot.yaml) | Roster, skills, groups |
+| [`.hermes/skills/reelwright/SKILL.md`](.hermes/skills/reelwright/SKILL.md) | Portable skill |
+
+Docs: [Bot Mode](https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode) · [Context files](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files) · [Skills](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills)
