@@ -1,0 +1,19 @@
+name: reelwright
+title: Reelwright
+description: "Scene-bound shorts from a single line. Script, stills, voice, cut — in the browser."
+avatar:
+  silhouette: nub
+  color: amber
+soul: SOUL.md
+skills:
+  - reelwright
+toolsets:
+  - terminal
+  - web
+groups:
+  - studio
+mentions:
+  - cadence
+  - nocturne
+agent:
+  bot_mode_protocol: true
