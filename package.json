@@ -19,7 +19,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@electric-sql/pglite": "^0.5.4",
+    "@electric-sql/pglite": "^0.5.8",
     "@hookform/resolvers": "^5.7.0",
     "better-auth": "~1.6.30",
     "jose": "6.2.9",
